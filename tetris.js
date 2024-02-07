@@ -6,7 +6,7 @@ const context = canvas.getContext('2d');
 const blockSize = 40;
 
 //play intro
-introSound = new Audio('audio/intro.mp3');
+introSound = new Audio('No sound');
 loopSound = new Audio('audio/tetrisloop.mp3');
 collideSound = new Audio('audio/tetriscollide.mp3')
 rotateSound = new Audio('audio/tetrisrotate.mp3')
