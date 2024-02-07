@@ -14,7 +14,7 @@ This guide outlines the steps to create Azure DevOps build and release pipelines
 - Start by creating a project in Azure DevOps with visibility set to private.
 - Proceed to create service connections for Azure Container Registry and GitHub in Project settings.
 
-!["service"]("Service Connection.png")
+!["service"]('Service\sConnection.png')
 
 ## Authentication Setup and Service Connections Creation
 - Choose "Grant authorization" and configure OAuth for Azure Pipelines.
