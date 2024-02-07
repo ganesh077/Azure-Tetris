@@ -20,7 +20,7 @@ This guide outlines the steps to create Azure DevOps build and release pipelines
 - Choose "Grant authorization" and configure OAuth for Azure Pipelines.
 - Create service connections, grant access permissions, and save the settings.
 
-## Weld and Configure
+## Build Web App and Configure
 - Once the job is completed, build and push operations are finished.
 - The image is pushed to the container registry, ready to create a Linux web app.
 
