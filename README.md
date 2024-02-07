@@ -14,6 +14,8 @@ This guide outlines the steps to create Azure DevOps build and release pipelines
 - Start by creating a project in Azure DevOps with visibility set to private.
 - Proceed to create service connections for Azure Container Registry and GitHub in Project settings.
 
+!["webapp"](Service Connection.png)
+
 ## Authentication Setup and Service Connections Creation
 - Choose "Grant authorization" and configure OAuth for Azure Pipelines.
 - Create service connections, grant access permissions, and save the settings.
@@ -22,6 +24,8 @@ This guide outlines the steps to create Azure DevOps build and release pipelines
 - Once the job is completed, build and push operations are finished.
 - The image is pushed to the container registry, ready to create a Linux web app.
 
+!["webapp"](Webappcreate.png)
+
 ## Creating Release Pipeline on Azure DevOps Portal
 - Navigate to the project pipeline and select releases.
 - Configure Azure App Service deployment with build artifacts and enable continuous deployment triggers.
@@ -29,6 +33,9 @@ This guide outlines the steps to create Azure DevOps build and release pipelines
 ## Creating and Deploying a Release Pipeline in Azure DevOps
 - Click on 'create release' to deploy the release pipeline.
 - Access and update application settings (Enable port 3000) in the Azure portal before browsing the application URL.
+
+!["release"](Releasepipe.png)
+
 
 ## Verifying Build and Release Pipeline Setup
 - Access the build pipeline and release pipeline from the GitHub repository on your local system.
