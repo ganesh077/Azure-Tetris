@@ -44,9 +44,6 @@ This guide outlines the steps to create Azure DevOps build and release pipelines
 ## Azure Release Pipeline
 - The release pipeline is automatically triggered on GitHub repository changes.
 
-!["release"](Screen1.png)
-
-
-
+!["release"](Screen2.png)
 
 
