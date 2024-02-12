@@ -1,4 +1,4 @@
-# Azure DevOps Project: Build and Release Pipeline for Azure Container App Deployment
+# Azure DevOps: Build and Release Pipeline for Azure Container App Deployment
 
 This guide outlines the steps to create Azure DevOps build and release pipelines for deploying Azure Container Apps (Tetris game) to Azure App Service.
 
@@ -43,6 +43,8 @@ This guide outlines the steps to create Azure DevOps build and release pipelines
 
 ## Azure Release Pipeline
 - The release pipeline is automatically triggered on GitHub repository changes.
+
+!["release"](Screen1.png)
 
 
 
